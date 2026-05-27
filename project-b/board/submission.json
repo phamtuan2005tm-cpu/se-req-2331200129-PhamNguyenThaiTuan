@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:23:53.201Z",
+  "savedAt": "2026-05-27T05:24:52.209Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -73,8 +73,8 @@
     "ambiguity1": "The app should force users to select a safe zone before they can chat.",
     "ambiguity2": "Also, I want to be able to auction items, not just set a fixed price.",
     "conflictSolution": "Xung đột phát hiện: Mâu thuẫn trực tiếp giữa Đội Pháp lý của trường (University Legal Team) và Chủ tịch Hội sinh viên (Student Union President). Đội Pháp lý khẳng định trường không phải là ngân hàng nên ứng dụng tuyệt đối không được xử lý tiền/thanh toán, sinh viên phải tự trả qua Venmo hoặc tiền mặt. Ngược lại, Chủ tịch Hội sinh viên lại muốn thu 2% phí giao dịch trên mỗi đơn hàng để lấy kinh phí hoạt động cho các câu lạc bộ. Nếu không xử lý tiền trên app, hệ thống không thể tự động trích xuất 2% phí này.  Giải pháp đề xuất (Proposed Solution): Ứng dụng sẽ không tích hợp cổng thanh toán trực tiếp để tuân thủ quy định pháp lý. Để đáp ứng nhu cầu thu phí của Hội sinh viên , ứng dụng sẽ chuyển sang mô hình Phí đăng bài/Phí thành viên (Listing Fee / Subscription model) thay vì trích xuất từ phí giao dịch trực tiếp: Mỗi sinh viên được đăng miễn phí 3 sản phẩm đầu tiên mỗi kỳ. Từ sản phẩm thứ 4 trở đi, họ phải đóng một khoản phí nhỏ cố định (ví dụ: 10,000 VND) thông qua cổng đóng quỹ riêng của Hội sinh viên để được duyệt bài đăng lên chợ. ",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "NFR 1 (Security / Authentication): Tính bảo mật và giới hạn phạm vi người dùng. Hệ thống bắt buộc người dùng phải sở hữu và xác nhận qua email có đuôi hợp lệ của trường (.edu) mới được phép kích hoạt tài khoản.",
+    "nfr2": "NFR 2 (Safety / Usability): Tính an toàn và hỗ trợ vị trí trực quan. Hệ thống danh sách \"Vùng trao đổi an toàn\" (Safe Exchange Zones) phải được tải nhanh, hiển thị trực quan và bắt buộc người dùng chọn dễ dàng.",
+    "nfr3": "NFR 3 (Performance / Efficiency): Hiệu năng xử lý hình ảnh. Tính năng quét mã vạch (Barcode scanning) bằng camera điện thoại để tự động điền thông tin sách phải có thời gian phản hồi nhanh dưới 2 giây và độ chính xác cao."
   }
 }
