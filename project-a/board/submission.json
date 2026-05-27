@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:17:53.993Z",
+  "savedAt": "2026-05-27T05:18:42.557Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -57,6 +57,16 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Student"
+    },
+    {
+      "id": "6d423cf8-6b6d-48d6-81a4-3b626104199d",
+      "title": "US005",
+      "description": "As an Administrator, I want to manually override prerequisite course requirements for special student cases and have the override automatically logged, so that I can provide flexible advising while maintaining a clear audit trail. [cite: 77, 127, 129]\n\nAcceptance Criteria: [cite: 81]\n[ ] Pass if an authorized advisor account can click an \"Override\" button to force-add a Course B even if the student hasn't completed Course A. [cite: 82, 83]\n[ ] Pass if the system successfully saves the override a",
+      "groupId": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Admintrators"
     }
   ],
   "analysis": {
