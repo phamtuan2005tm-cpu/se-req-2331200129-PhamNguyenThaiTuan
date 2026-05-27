@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T04:15:25.201Z",
+  "savedAt": "2026-05-27T04:17:56.928Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -20,7 +20,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "I want the app to warn me if I'm choosing a class that starts at 8:00 AM because I will definitely oversleep.",
-    "ambiguity2": "",
+    "ambiguity2": "The system needs to stop them from even asking.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
