@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T04:17:56.928Z",
+  "savedAt": "2026-05-27T04:21:42.123Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "I want the app to warn me if I'm choosing a class that starts at 8:00 AM because I will definitely oversleep.",
     "ambiguity2": "The system needs to stop them from even asking.",
-    "conflictSolution": "",
+    "conflictSolution": "Giải pháp đề xuất (Proposed Solution): Hệ thống sẽ áp dụng cơ chế phân tách trạng thái lộ trình làm 2 chế độ độc lập:Chế độ Dự thảo (Draft/Planning Mode): Đối với các học kỳ xa trong tương lai (chưa có lịch học chính thức), hệ thống cho phép sinh viên tự do kéo thả và lên kế hoạch 4 năm dựa trên cấu trúc cây điều kiện tiên quyết chuẩn của chương trình đào tạo.  Chế độ Đăng ký Thực tế (Live Enrollment Mode): Đối với học kỳ hiện tại đang mở, hệ thống sẽ kích hoạt tính năng kiểm tra database thời gian thực của Phòng Đăng ký. Nếu lớp đã đầy, hệ thống sẽ khóa không cho thêm và đưa ra cảnh báo đỏ, đồng thời gợi ý các slot lớp khác còn trống.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
