@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T04:21:42.123Z",
+  "savedAt": "2026-05-27T04:23:58.247Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -22,8 +22,8 @@
     "ambiguity1": "I want the app to warn me if I'm choosing a class that starts at 8:00 AM because I will definitely oversleep.",
     "ambiguity2": "The system needs to stop them from even asking.",
     "conflictSolution": "Giải pháp đề xuất (Proposed Solution): Hệ thống sẽ áp dụng cơ chế phân tách trạng thái lộ trình làm 2 chế độ độc lập:Chế độ Dự thảo (Draft/Planning Mode): Đối với các học kỳ xa trong tương lai (chưa có lịch học chính thức), hệ thống cho phép sinh viên tự do kéo thả và lên kế hoạch 4 năm dựa trên cấu trúc cây điều kiện tiên quyết chuẩn của chương trình đào tạo.  Chế độ Đăng ký Thực tế (Live Enrollment Mode): Đối với học kỳ hiện tại đang mở, hệ thống sẽ kích hoạt tính năng kiểm tra database thời gian thực của Phòng Đăng ký. Nếu lớp đã đầy, hệ thống sẽ khóa không cho thêm và đưa ra cảnh báo đỏ, đồng thời gợi ý các slot lớp khác còn trống.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "Bảo mật thông tin lịch trình cá nhân của sinh viên. Tuyệt đối không cho phép bất kỳ sinh viên nào có thể truy cập hoặc nhìn thấy lộ trình/thời khóa biểu của sinh viên khác.",
+    "nfr2": "Tính minh bạch và lưu vết hệ thống. Hệ thống bắt buộc phải tự động ghi lại lịch sử log (Audit log) chi tiết mỗi khi có một cố vấn (advisor) thực hiện thao tác ghi đè thủ công (manual override) các điều kiện tiên quyết để phục vụ công tác kiểm toán.",
+    "nfr3": "Hiệu năng và tính đồng bộ dữ liệu. Hệ thống phải có khả năng kết nối đồng bộ và phản hồi dữ liệu thời gian thực (live database) một cách ổn định với hệ thống của Phòng Đăng ký để cập nhật trạng thái đóng/mở của các lớp học."
   }
 }
