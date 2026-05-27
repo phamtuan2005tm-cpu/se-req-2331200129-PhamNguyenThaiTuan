@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:38:00.669Z",
+  "savedAt": "2026-05-27T05:38:50.676Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -46,6 +46,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "206920ef-0ee3-48df-951e-7505da380564",
+      "title": "US004",
+      "description": "As a Student, I want to receive an automatic notification if an item in my active order goes out of stock, so that I can choose a replacement item before arriving.\n\nAcceptance Criteria:\n[ ] Pass if the system instantly cancels the item in the active order and sends an alert if the chef marks that item as 'Sold Out'.\n[ ] Pass if the app provides a one-click redirect to the menu page to select a replacement dish without losing the rest of the order.",
+      "groupId": "43590e2a-0f44-4f6d-88ea-a7fab46e802a",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Low",
       "owner": "Student"
     }
   ],
