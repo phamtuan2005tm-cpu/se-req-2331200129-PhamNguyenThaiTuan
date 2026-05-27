@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:34:52.600Z",
+  "savedAt": "2026-05-27T05:35:35.624Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -73,8 +73,8 @@
     "ambiguity1": "I want students to order food on their phone while they are walking from class.",
     "ambiguity2": "I need to filter the entire menu. If I check 'No Peanuts', I don't even want to see the peanut butter cookie on the screen.",
     "conflictSolution": "Xung đột phát hiện: Mâu thuẫn tiềm ẩn giữa Quản lý căn-tin (Cafeteria Manager) và Đầu bếp (Chef). Quản lý muốn sinh viên có thể tự do đặt món trực tuyến từ xa qua điện thoại để giảm xếp hàng. Tuy nhiên, Đầu bếp lại cần kiểm soát kho nguyên liệu thời gian thực và yêu cầu nút \"Sold Out\" (Hết hàng) phải có tác dụng ngay lập tức vì thực tế đã có tình trạng sinh viên vẫn tiếp tục đặt món chay (vegan wrap) suốt 10 phút sau khi bếp đã hết sạch nguyên liệu.  Giải pháp đề xuất (Proposed Solution): Hệ thống sẽ áp dụng cơ chế Hàng đợi tin nhắn đồng bộ phản hồi nhanh (Reactive Inventory Event): Khi Đầu bếp nhấn nút \"Sold Out\" trên màn hình nhà bếp, một tín hiệu sự kiện (event) phải được gửi với độ ưu tiên cao nhất thông qua hệ thống để cập nhật trạng thái thực đơn trên tất cả ứng dụng client của sinh viên ngay lập tức (dưới 1 giây). Mọi đơn hàng đang nằm trong giỏ chưa thanh toán của món đó sẽ bị tự động xóa kèm thông báo lỗi \"Món ăn vừa hết hàng\", chặn đứng việc dồn đơn lỗi vào nhà bếp.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "NFR 1 (Reliability / Fault Tolerance): Độ tin cậy và khả năng chịu lỗi ngoại tuyến. Hệ thống hiển thị tại nhà bếp (Kitchen Display System) bắt buộc phải có khả năng hoạt động offline ổn định trong ít nhất 10 phút không bị crash nếu mất kết nối Wi-Fi, và tự động đồng bộ lại dữ liệu ngay khi có mạng.",
+    "nfr2": "NFR 2 (Performance / Latency): Hiệu năng cập nhật trạng thái. Thao tác đánh dấu \"Hết hàng\" (Sold Out) từ đầu bếp phải được đồng bộ và cập nhật xuống giao diện người dùng của sinh viên với độ trễ dưới 1 giây để tránh dồn đơn lỗi.",
+    "nfr3": "NFR 3 (Usability / Safety): Tính khả dụng và an toàn sức khỏe. Bộ lọc dị ứng thành phần món ăn phải hoạt động chính xác tuyệt đối, đảm bảo ẩn hoàn toàn 100% các món chứa chất gây dị ứng đã chọn để không gây nguy hiểm cho sinh viên.  "
   }
 }
