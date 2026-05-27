@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:17:00.973Z",
+  "savedAt": "2026-05-27T05:17:53.993Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -43,6 +43,16 @@
       "title": "US003",
       "description": "As a Student, I want the roadmap builder to block me from adding a course if its slots are completely full in the live database, so that I don't plan for unavailable classes. [cite: 77, 130]\n\nAcceptance Criteria: [cite: 81]\n[ ] Pass if the system cross-checks the current enrollment database and blocks the addition of a class when its capacity is 100% full for the upcoming semester. [cite: 82, 83]\n[ ] Pass if an error message \"Class is Full\" is displayed, preventing the block from being added to",
       "groupId": "23691e3e-eb10-410d-9660-16d3c73a9697",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "1dedad58-c924-4ae6-b014-581f0009f176",
+      "title": "US004",
+      "description": "As a Student, I want my academic roadmap to be completely private, so that no other students can see or access my personal schedule. [cite: 77, 129]\n\nAcceptance Criteria: [cite: 81]\n[ ] Pass if a logged-in student can only view their own academic roadmap dashboard. [cite: 82, 83]\n[ ] Pass if any direct URL access or API request to view another student's roadmap ID by a regular student account returns an \"Access Denied / 403 Unauthorized\" error. [cite: 82, 83]",
+      "groupId": "43590e2a-0f44-4f6d-88ea-a7fab46e802a",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
