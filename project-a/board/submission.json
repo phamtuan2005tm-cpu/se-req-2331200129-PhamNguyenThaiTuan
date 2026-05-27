@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-05-27T04:15:25.201Z",
+  "groups": [
+    {
+      "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "23691e3e-eb10-410d-9660-16d3c73a9697",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "43590e2a-0f44-4f6d-88ea-a7fab46e802a",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "I want the app to warn me if I'm choosing a class that starts at 8:00 AM because I will definitely oversleep.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
