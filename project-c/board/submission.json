@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:35:35.624Z",
+  "savedAt": "2026-05-27T05:36:22.873Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -19,54 +19,14 @@
   ],
   "tickets": [
     {
-      "id": "fe2a70d3-e622-4f52-ac54-709ab8eb3f13",
+      "id": "6ccd87d0-72f0-4f15-bf35-650491a811fc",
       "title": "US001",
-      "description": "As a Student, I want to scan a textbook's barcode using my phone camera, so that the system automatically fills in the ISBN and Title without manual typing.\n\nAcceptance Criteria:\n[ ] Pass if the system requests camera permission and successfully activates the phone's camera container.\n[ ] Pass if scanning a valid barcode decodes the data and auto-populates the textbook's Title and ISBN fields within 2 seconds.",
+      "description": "As a Student, I want to filter the cafeteria menu by selecting my specific allergies (e.g., 'No Peanuts'), so that I do not see any dishes containing those harmful ingredients on my screen.\n\nAcceptance Criteria:\n[ ] Pass if selecting the 'No Peanuts' checkbox immediately hides the peanut butter cookie and all other peanut-containing dishes from the menu display.\n[ ] Pass if the allergy filter profile persists and remains active across multiple ordering sessions until manually changed by the stud",
       "groupId": "23691e3e-eb10-410d-9660-16d3c73a9697",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
       "owner": "Student"
-    },
-    {
-      "id": "225894d6-fb73-450c-bac1-70b768c5c080",
-      "title": "US002",
-      "description": "As a Student, I want to place my items up for auction with a starting price, so that I can sell to the highest bidder instead of a fixed price.\n\nAcceptance Criteria:\n[ ] Pass if a seller can choose an \"Auction\" option, set a starting price, and define an expiration time (e.g., 3 days).\n[ ] Pass if other logged-in students can place bids that are strictly higher than the current maximum bid.",
-      "groupId": "23691e3e-eb10-410d-9660-16d3c73a9697",
-      "status": "todo",
-      "type": "User Story",
-      "priority": "Medium",
-      "owner": "Student"
-    },
-    {
-      "id": "d4b820c8-04ba-4618-92f8-4e6b664d896a",
-      "title": "US003",
-      "description": "As a Student, I want to create an account only if I have a valid school email address, so that the marketplace remains exclusive to our trusted campus community.\n\nAcceptance Criteria:\n[ ] Pass if entering an email address that does not end with \".edu\" triggers an validation error and rejects registration.\n[ ] Pass if entering a valid \".edu\" email triggers a verification token code sent to that inbox to activate the account.",
-      "groupId": "23691e3e-eb10-410d-9660-16d3c73a9697",
-      "status": "todo",
-      "type": "User Story",
-      "priority": "Medium",
-      "owner": "Student"
-    },
-    {
-      "id": "abe4b22a-cf8a-4ffb-a034-cab62da3fd5f",
-      "title": "US004",
-      "description": "As a Student, I want to create an account only if I have a valid school email address, so that the marketplace remains exclusive to our trusted campus community.\n\nAcceptance Criteria:\n[ ] Pass if entering an email address that does not end with \".edu\" triggers an validation error and rejects registration.\n[ ] Pass if entering a valid \".edu\" email triggers a verification token code sent to that inbox to activate the account.",
-      "groupId": "43590e2a-0f44-4f6d-88ea-a7fab46e802a",
-      "status": "todo",
-      "type": "User Story",
-      "priority": "Low",
-      "owner": "Student"
-    },
-    {
-      "id": "2382d7d1-593d-46c7-9dcc-ad969d24ebe8",
-      "title": "US005",
-      "description": "As an Administrator, I want to manage and update the list of designated Safe Exchange Zones on campus, so that students are always guided to secure and monitored meetup areas.\n\nAcceptance Criteria:\n[ ] Pass if an admin can log into the backend management dashboard, add a new location with a title and description, and save it.\n[ ] Pass if the newly added safe zone instantly populates into the mandatory student meetup location picker dropdown.",
-      "groupId": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
-      "status": "todo",
-      "type": "User Story",
-      "priority": "High",
-      "owner": "Admintrators"
     }
   ],
   "analysis": {
