@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:38:50.676Z",
+  "savedAt": "2026-05-27T05:39:39.170Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -57,6 +57,16 @@
       "type": "User Story",
       "priority": "Low",
       "owner": "Student"
+    },
+    {
+      "id": "5c86e6b3-5bfe-4341-959e-f671444cd2e5",
+      "title": "US005",
+      "description": "As a Cafeteria Staff member, I want to mark any food item as 'Sold Out' instantly from the kitchen display screen, so that students cannot place new orders for unavailable food.\n\nAcceptance Criteria:\n[ ] Pass if clicking the 'Sold Out' button next to an item on the kitchen screen instantly updates its status to unavailable.\n[ ] Pass if any subsequent mobile student requests to add that sold-out item to a cart are blocked and return a clear \"Item Unavailable\" error.",
+      "groupId": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Admintrators"
     }
   ],
   "analysis": {
