@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:36:22.873Z",
+  "savedAt": "2026-05-27T05:37:23.143Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -22,6 +22,16 @@
       "id": "6ccd87d0-72f0-4f15-bf35-650491a811fc",
       "title": "US001",
       "description": "As a Student, I want to filter the cafeteria menu by selecting my specific allergies (e.g., 'No Peanuts'), so that I do not see any dishes containing those harmful ingredients on my screen.\n\nAcceptance Criteria:\n[ ] Pass if selecting the 'No Peanuts' checkbox immediately hides the peanut butter cookie and all other peanut-containing dishes from the menu display.\n[ ] Pass if the allergy filter profile persists and remains active across multiple ordering sessions until manually changed by the stud",
+      "groupId": "23691e3e-eb10-410d-9660-16d3c73a9697",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "2a7bb4b5-dee6-46eb-9544-f26ef0f6d436",
+      "title": "US002",
+      "description": "As a Student, I want to pre-order my lunch on my phone while walking from class, so that I can skip the long 20-minute queue at the cafeteria.\n\nAcceptance Criteria:\n[ ] Pass if a student can select items, customize their order, and submit it successfully via the mobile app.\n[ ] Pass if the system generates a unique order pickup QR code and an estimated ready time upon successful submission.",
       "groupId": "23691e3e-eb10-410d-9660-16d3c73a9697",
       "status": "todo",
       "type": "User Story",
