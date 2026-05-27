@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:16:08.276Z",
+  "savedAt": "2026-05-27T05:17:00.973Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -37,6 +37,16 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": ""
+    },
+    {
+      "id": "827a09e5-5a0c-4e61-8974-895ea6b7bbb2",
+      "title": "US003",
+      "description": "As a Student, I want the roadmap builder to block me from adding a course if its slots are completely full in the live database, so that I don't plan for unavailable classes. [cite: 77, 130]\n\nAcceptance Criteria: [cite: 81]\n[ ] Pass if the system cross-checks the current enrollment database and blocks the addition of a class when its capacity is 100% full for the upcoming semester. [cite: 82, 83]\n[ ] Pass if an error message \"Class is Full\" is displayed, preventing the block from being added to",
+      "groupId": "23691e3e-eb10-410d-9660-16d3c73a9697",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Student"
     }
   ],
   "analysis": {
