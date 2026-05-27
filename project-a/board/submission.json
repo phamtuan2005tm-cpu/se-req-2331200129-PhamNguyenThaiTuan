@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T04:23:58.247Z",
+  "savedAt": "2026-05-27T05:15:15.346Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -17,7 +17,18 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "66d1864c-dd20-4710-a09e-70fd21c5459b",
+      "title": "BL001",
+      "description": "[CRITICAL] The connection pool to the Registrar's live database is intermittently dropping connections, causing the real-time class capacity check feature (US003) to time out and crash the roadmap page. \n\nAcceptance Criteria:\n[ ] Pass if the connection pool is stabilized and maintains a 99.9% uptime during peak simulation.\n[ ] Pass if the system handles temporary database timeouts gracefully without throwing a 500 error page to the student.",
+      "groupId": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
+    }
+  ],
   "analysis": {
     "ambiguity1": "I want the app to warn me if I'm choosing a class that starts at 8:00 AM because I will definitely oversleep.",
     "ambiguity2": "The system needs to stop them from even asking.",
