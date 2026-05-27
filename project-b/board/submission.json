@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:28:14.663Z",
+  "savedAt": "2026-05-27T05:29:05.340Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -46,6 +46,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "abe4b22a-cf8a-4ffb-a034-cab62da3fd5f",
+      "title": "US004",
+      "description": "As a Student, I want to create an account only if I have a valid school email address, so that the marketplace remains exclusive to our trusted campus community.\n\nAcceptance Criteria:\n[ ] Pass if entering an email address that does not end with \".edu\" triggers an validation error and rejects registration.\n[ ] Pass if entering a valid \".edu\" email triggers a verification token code sent to that inbox to activate the account.",
+      "groupId": "43590e2a-0f44-4f6d-88ea-a7fab46e802a",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Low",
       "owner": "Student"
     }
   ],
