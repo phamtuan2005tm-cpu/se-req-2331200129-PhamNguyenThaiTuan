@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:32:43.981Z",
+  "savedAt": "2026-05-27T05:34:14.528Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -71,7 +71,7 @@
   ],
   "analysis": {
     "ambiguity1": "I want students to order food on their phone while they are walking from class.",
-    "ambiguity2": "",
+    "ambiguity2": "I need to filter the entire menu. If I check 'No Peanuts', I don't even want to see the peanut butter cookie on the screen.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
