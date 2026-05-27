@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:25:54.996Z",
+  "savedAt": "2026-05-27T05:27:30.222Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -22,6 +22,16 @@
       "id": "fe2a70d3-e622-4f52-ac54-709ab8eb3f13",
       "title": "US001",
       "description": "As a Student, I want to scan a textbook's barcode using my phone camera, so that the system automatically fills in the ISBN and Title without manual typing.\n\nAcceptance Criteria:\n[ ] Pass if the system requests camera permission and successfully activates the phone's camera container.\n[ ] Pass if scanning a valid barcode decodes the data and auto-populates the textbook's Title and ISBN fields within 2 seconds.",
+      "groupId": "23691e3e-eb10-410d-9660-16d3c73a9697",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "225894d6-fb73-450c-bac1-70b768c5c080",
+      "title": "US002",
+      "description": "As a Student, I want to place my items up for auction with a starting price, so that I can sell to the highest bidder instead of a fixed price.\n\nAcceptance Criteria:\n[ ] Pass if a seller can choose an \"Auction\" option, set a starting price, and define an expiration time (e.g., 3 days).\n[ ] Pass if other logged-in students can place bids that are strictly higher than the current maximum bid.",
       "groupId": "23691e3e-eb10-410d-9660-16d3c73a9697",
       "status": "todo",
       "type": "User Story",
