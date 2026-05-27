@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:15:15.346Z",
+  "savedAt": "2026-05-27T05:16:08.276Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -27,6 +27,16 @@
       "type": "User Story",
       "priority": "High",
       "owner": "Student"
+    },
+    {
+      "id": "0b71a203-b74d-49d9-b6c4-8cc9db0058b6",
+      "title": "US002",
+      "description": "As a Student, I want the system to show a warning alert if I select a class that starts at 8:00 AM, so that I can avoid oversleeping and missing lectures. [cite: 77, 128]\n\nAcceptance Criteria: [cite: 81]\n[ ] Pass if the system triggers a visible yellow warning pop-up saying \"Warning: This class starts at 8:00 AM\" immediately when an 8:00 AM class is dropped into the roadmap. [cite: 82, 83]\n[ ] Pass if the system still allows the student to keep the course in the roadmap after acknowledging the w",
+      "groupId": "23691e3e-eb10-410d-9660-16d3c73a9697",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
