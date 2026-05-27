@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:37:23.143Z",
+  "savedAt": "2026-05-27T05:38:00.669Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -36,6 +36,16 @@
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "723159dc-960f-478a-9b04-65dbc6ee5663",
+      "title": "US003",
+      "description": "As a Student, I want to receive a push notification discount offer at 11:30 AM for the daily special, so that I can save money on my lunch.\n\nAcceptance Criteria:\n[ ] Pass if the system's notification service triggers and delivers the promotion text precisely at 11:30 AM to subscribed students.\n[ ] Pass if clicking the push notification opens the app directly to the daily special item page with the discount rate applied.",
+      "groupId": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
       "owner": "Student"
     }
   ],
