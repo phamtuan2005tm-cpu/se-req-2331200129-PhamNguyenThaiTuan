@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-05-27T05:29:05.340Z",
+  "savedAt": "2026-05-27T05:30:00.063Z",
   "groups": [
     {
       "id": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
@@ -57,6 +57,16 @@
       "type": "User Story",
       "priority": "Low",
       "owner": "Student"
+    },
+    {
+      "id": "2382d7d1-593d-46c7-9dcc-ad969d24ebe8",
+      "title": "US005",
+      "description": "As an Administrator, I want to manage and update the list of designated Safe Exchange Zones on campus, so that students are always guided to secure and monitored meetup areas.\n\nAcceptance Criteria:\n[ ] Pass if an admin can log into the backend management dashboard, add a new location with a title and description, and save it.\n[ ] Pass if the newly added safe zone instantly populates into the mandatory student meetup location picker dropdown.",
+      "groupId": "9eb6ce00-92fe-40fb-8252-c6e35e873404",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Admintrators"
     }
   ],
   "analysis": {
